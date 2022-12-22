@@ -1,21 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import Header from '../components/headers'
+import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <header>
-        <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="blog">Blog</Link></li>
-          <li><Link href="users">Users</Link></li>
-        </ul>
-      </header>
+      <Header />
+      <h1 className={styles['title-homepage']}>Welcome Judin</h1>
+      <Footer />
     </>
-  )
+  );
 }
