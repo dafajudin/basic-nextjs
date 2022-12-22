@@ -1,0 +1,5 @@
+Membuat Component lain di Next JS 
+    why ? karena ketika kita ingin memmbuat Component header, jangan membaut nya di folder pages
+    karena jika kita membuatnya di dalam folder routing, maka akan menjadi routing.
+
+    saran ketika membuat Component harus di luar folder pages.
